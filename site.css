@@ -19,6 +19,10 @@ div {
   text-align: center;
 }
 
+#logo {
+  width: 580px;
+}
+
 #mc_embed_signup {
   margin: 30px;
 }
