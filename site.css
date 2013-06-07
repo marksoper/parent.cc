@@ -12,7 +12,7 @@ body, div, p, canvas, h1, h2 {
 }
 
 a {
-
+  font-weight: bold;
 }
 
 div {
