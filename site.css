@@ -23,6 +23,18 @@ div {
   width: 580px;
 }
 
+.archive ul {
+  list-style-type: none
+}
+
+.archive li {
+  margin: 20px;
+}
+
+.archiveLink {
+  margin-top: 20px;
+}
+
 #mc_embed_signup {
   margin: 30px;
 }
