@@ -35,6 +35,16 @@ div {
   margin-top: 20px;
 }
 
+.subscribeLink {
+  font-size:240%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+
+
 #mc_embed_signup {
   margin: 30px;
 }
