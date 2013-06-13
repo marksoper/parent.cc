@@ -14,12 +14,21 @@ b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
 mixpanel.init("3fb895efb7806067de79fe7bc798fe33");
 
 window._pcc = {};
+window._pcc.trackLoad = function() {
+  var props = {
+    href: window.location.href,
+    referrer: document.referrer
+  }
+  var evtType = "LOAD: " + props.href + " FROM " + props.referrer;
+  mixpanel.track(evtType, props);
+};
 window._pcc.trackLink = function(props) {
-  var evtType = props.originHref + " TO " + props.targetHref;
+  var evtType = "LINK: " + props.originHref + " TO " + props.targetHref;
   mixpanel.track(evtType, props);
 };
 
 $(function() {
+  _pcc.trackLoad();
   $("a").click(function(e) {
     e.preventDefault();
     _pcc.trackLink({
