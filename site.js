@@ -15,8 +15,13 @@ mixpanel.init("3fb895efb7806067de79fe7bc798fe33");
 
 
 (function() {
-  $("a").click(function(evt) {
-    console.log(e);
+  $("a").click(function(e) {
+    e.preventDefault();
+    var destination = e.target;
+    setTimeout(function() {
+      console.log(e);
+      //window.location.assign("");
+    }, 199);
   });
 })
 
