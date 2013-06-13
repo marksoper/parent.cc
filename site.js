@@ -15,15 +15,17 @@ mixpanel.init("3fb895efb7806067de79fe7bc798fe33");
 
 window._pcc = {};
 window._pcc.trackLink = function(props) {
-  mixpanel.track(props.href, props);
+  var evtType = props.originHref + " TO " + props.targetHref;
+  mixpanel.track(evtType, props);
 };
 
 $(function() {
   $("a").click(function(e) {
     e.preventDefault();
     _pcc.trackLink({
-      href: e.target.href,
-      title: e.target.title
+      originHref: window.location.href,
+      targetHref: e.target.href,
+      targetTitle: e.target.title
     });
     setTimeout(function() {
       window.location.assign(e.target.href);
