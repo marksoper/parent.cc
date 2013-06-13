@@ -15,7 +15,7 @@ mixpanel.init("3fb895efb7806067de79fe7bc798fe33");
 
 window._pcc = {};
 window._pcc.trackLink = function(props) {
-  mixpanel.track("link", props);
+  mixpanel.track(props.href, props);
 };
 
 $(function() {
