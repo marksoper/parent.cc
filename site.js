@@ -14,7 +14,7 @@ b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
 mixpanel.init("3fb895efb7806067de79fe7bc798fe33");
 
 
-(function() {
+$(function() {
   $("a").click(function(e) {
     e.preventDefault();
     var destination = e.target;
@@ -23,6 +23,6 @@ mixpanel.init("3fb895efb7806067de79fe7bc798fe33");
       //window.location.assign("");
     }, 199);
   });
-})
+});
 
 
