@@ -13,15 +13,21 @@ typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var
 b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
 mixpanel.init("3fb895efb7806067de79fe7bc798fe33");
 
+window._pcc = {};
+window._pcc.trackLink = function(props) {
+  mixpanel.track("link", props);
+};
 
 $(function() {
   $("a").click(function(e) {
     e.preventDefault();
-    var destination = e.target;
+    _pcc.trackLink({
+      href: e.target.href,
+      title: e.target.title
+    });
     setTimeout(function() {
-      console.log(e);
-      //window.location.assign("");
-    }, 199);
+      window.location.assign(e.target.href);
+    }, 299);
   });
 });
 
