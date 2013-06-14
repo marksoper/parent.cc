@@ -23,7 +23,7 @@ window._pcc.trackLoad = function() {
   mixpanel.track(evtType, props);
 };
 window._pcc.trackLink = function(props) {
-  var evtType = "LINK: " + props.originHref + " TO " + props.targetHref;
+  var evtType = "LINK: " + props.targetHref + " FROM " + props.originHref;
   mixpanel.track(evtType, props);
 };
 
