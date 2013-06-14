@@ -31,6 +31,11 @@ div {
   width: 420px;
 }
 
+#subtitle {
+  font-size: 18px;
+  line-height: 24px;
+}
+
 .archive ul {
   list-style-type: none
 }
