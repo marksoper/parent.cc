@@ -1,4 +1,12 @@
 
+## American students falling behind? Yes and No
+
+The Annie E Casy Foundation released their annual Kids Count report on child and family well-being in the US. They report some encouraging 
+
+New Mexico was awarded "worst state" for overall well-being of children.  New Hampshire led a raft of New England states at the top of the pack. [See how your state stacks up in this impressive visualization?](http://datacenter.kidscount.org/publications/databook/DataWheel/2013 "Kids Count Data Wheel")
+
+
+
 
 http://www.heckmanequation.org/content/resource/raising-america-are-we-crazy-about-our-kids
 
