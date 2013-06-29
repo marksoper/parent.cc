@@ -1,0 +1,2 @@
+
+Two epic entertainers collaborate to solve some of the world's most pressing problems in [Kid President chats with Steve Carell this week](http://kidpres.tumblr.com/post/54104087483/new-video-with-new-best-friend-steve-carell "Kid President Chats With Steve Carell")
