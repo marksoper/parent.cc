@@ -3,8 +3,6 @@
 
 The Annie E Casy Foundation released their [2013 Kids Count Data Book](http://datacenter.kidscount.org/publications/databook/2013 "2013 Kids Count Data Book") report on child and family well-being in the US.
 
-- We continue to improve steadily in health and education. Economic well-being is up slightly in the past year but has been in decline over the past decade.
-
 - 54% of 3-4 year olds are NOT enrolled in pre-school
 
 - California has the highest percentage of children - 52% - living in households spending more than 30 percent of income for housing

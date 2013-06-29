@@ -1,5 +1,5 @@
 
-## DOMA Ruling Huge For Same-Sex Parents
+## Historic Supreme Court Ruling For Same-Sex Parents
 
 This week the US Supreme Court Struck down the Defense of Marriage Act (DOMA), a 1996 law preventing the federal government from recognizing same-sex marriage.  The court determined that same-sex families were being denied dignity, protections, and benefits afforded to other families, causing financial harm to married gay couples and their children.
 
