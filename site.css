@@ -23,13 +23,41 @@ div {
 }
 
 .container {
-  width: 580px;
+  max-width: 900px;
+  min-width: 700px;
   margin: 0 auto;
+}
+
+.info {
+  float: left;
+  width: 300px;
+  border-right: 5px solid #333333;
+}
+
+.content {
+  margin-left: 340px;
+  text-align: left;
+  max-width: 600px;
+  min-width: 400px;
+}
+
+.content h2 {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.content p {
+  margin: 10px 0;
 }
 
 #logo {
   margin-top: 20px;
+  width: 280px;
 }
+
+
+
+
 
 #subtitle {
   font-size: 18px;
@@ -45,7 +73,7 @@ div {
 }
 
 .browse {
-  width: 580px;
+  width: 300px;
   margin: 50px auto 0 auto;
 }
 
@@ -65,7 +93,7 @@ div {
 
 .about {
   color: #333333;
-  width: 580px;
+  width: 300px;
   text-align: left;
   margin: 40px auto 40px auto;
 }
