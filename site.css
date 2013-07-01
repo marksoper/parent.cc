@@ -24,13 +24,10 @@ div {
 
 .container {
   position: absolute;
+  overflow: hidden;
   top: 0;
-  left: 0;
   height: 100%;
   width: 100%;
-  max-width: 900px;
-  min-width: 700px;
-  margin: 0 auto;
 }
 
 .info {
@@ -43,10 +40,14 @@ div {
 }
 
 .content {
-  margin-left: 340px;
-  text-align: left;
-  max-width: 600px;
-  min-width: 400px;
+  overflow: auto;
+  padding: 30px;
+  position: absolute;
+  left: 300px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align:left;
 }
 
 .content h2 {
