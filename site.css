@@ -23,13 +23,21 @@ div {
 }
 
 .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   max-width: 900px;
   min-width: 700px;
   margin: 0 auto;
 }
 
 .info {
-  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: 300px;
   border-right: 5px solid #333333;
 }
