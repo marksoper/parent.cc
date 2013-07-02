@@ -67,7 +67,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 
 .content h2 {
   font-size: 18px;
-  margin: 20px 0;
+  margin: 40px 0 20px 0;
 }
 
 .content p {
@@ -131,7 +131,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 }
 
 .archiveLink {
-  margin-top: 15px;
+  margin: 55px 0 40px 0;
+}
+
+.archiveLink a {
+  font-size: 24px;
+}
+
+.copyright {
+  font-size: 12px;
 }
 
 .subscribeLink {
