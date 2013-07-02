@@ -28,6 +28,7 @@ div {
   top: 0;
   height: 100%;
   width: 100%;
+  min-width:800px;
 }
 
 .info {
@@ -35,10 +36,12 @@ div {
   top: 0;
   left: 0;
   height: 100%;
+  min-height:600px;
   width: 300px;
-  border-right: 5px solid #333333;
+  border-right: 2px solid #666666;
+}
 
-
+.info {
 background: rgb(206,220,231); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,220,231,1)), color-stop(100%,rgba(89,106,114,1))); /* Chrome,Safari4+ */
@@ -72,13 +75,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 }
 
 #logo {
-  margin-top: 20px;
-  width: 80px;
+  margin-top: 40px;
+  height: 40px;
 }
 
+.header h1 {
+  color: #333366;
+  font-size: 18px;
+}
 
+.info .header h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
 
+.signupLabel {
+  font-size: 12px;
+  color: #555555;
+}
 
+.info .author {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 20px;
+  font-size: 12px ;
+  color: #bbbbbb;
+}
+
+.info .author a {
+  color: #bbccdd;
+}
 
 #subtitle {
   font-size: 18px;
@@ -150,6 +178,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 #mc_embed_signup .button {clear:both; background-color: #990033; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
 #mc_embed_signup .button:hover {background-color:#777;}
 #mc_embed_signup .nowrap {white-space:nowrap;}     
-#mc_embed_signup input.email {font-size: 18px; font-weight: bold; color: #990033; background-color: #ffeef9; padding:12px 0; margin: 20px; text-indent:10px; width:280px; }
+#mc_embed_signup input.email {font-size: 18px; font-weight: bold; color: #990033; background-color: #ffeef9; padding:12px 0; margin: 5px 20px 20px 20px; text-indent:10px; width:220px; }
 
 #mc_embed_signup input.button {width:100px;}
