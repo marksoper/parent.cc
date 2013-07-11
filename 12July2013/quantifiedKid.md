@@ -1,6 +1,8 @@
 
 ## The Quanitifed Kid Movement
 
-http://www.slate.com/articles/technology/data_mine_1/2013/07/data_driven_parenting_tracking_baby_sleep_eating_and_pooping_on_spreadsheets.html
+If you were concerned that your kids might be left out of the wearable computing and the quantified self megatrends, you can rest easy. You'll soon be able to get [digital diapers that analyze](http://bits.blogs.nytimes.com/2013/07/09/a-digital-diaper-for-tracking-health/ "A Digital Diaper For Tracking Children's Health") for dehydration, infection, kidney problems, and other health issues. Need inspiration on how to apply big data to parenting, see ["I Measure Every Single Thing My Child Does"](http://www.slate.com/articles/technology/data_mine_1/2013/07/data_driven_parenting_tracking_baby_sleep_eating_and_pooping_on_spreadsheets.single.html) by Slate's Amy Webb: "To you, our data tracking might seem obsessive, ostentatious, or just plain weird. Let me offer some perspective.  Our data tracking —and we’re still doing it, years later— is how we pay deep, sincere attention to our child. And I have tangible proof that it’s working."
 
-http://bits.blogs.nytimes.com/2013/07/09/a-digital-diaper-for-tracking-health/
+<a href="http://bits.blogs.nytimes.com/2013/07/09/a-digital-diaper-for-tracking-health/" title="A Digital Diaper For Tracking Children's Health">
+<img src="http://res.cloudinary.com/parentcc/image/upload/c_scale,e_saturation,r_0,w_490/v1373558646/Screen_shot_2013-07-11_at_12_03_25_PM_toc173.png" alt="Digital Diapers" />
+</a>
