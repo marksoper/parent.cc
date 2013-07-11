@@ -3,12 +3,30 @@ import sys
 import markdown
 import json
 import codecs
+from BeautifulSoup import BeautifulSoup
 
 dirname = sys.argv[1].rstrip("/")
 
 articleNamesFile = open(dirname + "/edition.json", "r")
 articles = json.loads(articleNamesFile.read())
 articleNamesFile.close()
+
+def addStyling(html):
+    soup = BeautifulSoup(html)
+    # style images
+    imgstyle = "float: right; width: 200px; margin: 0 20px"
+    imgs = soup.findAll("img")
+    for img in imgs:
+    	img.attrs.append(("style", imgstyle))
+    # style h2 tags
+    h2style = "clear:both; font-size: 18px; margin-top: 15px"
+    h2s = soup.findAll("h2")
+    for h2 in h2s:
+        h2.attrs.append(("style", h2style))
+    htmlStyled = str(soup).decode("UTF-8", "replace")
+    return htmlStyled
+
+
 
 articlesHtml = []
 for article in articles:
@@ -18,7 +36,8 @@ for article in articles:
     md = mdfile.read()
     mdfile.close()
     html = markdown.markdown(md)
-    articlesHtml.append(html)
+    htmlStyled = addStyling(html)
+    articlesHtml.append(htmlStyled)
 
 delim = "\n\n\n"
 html = delim + delim.join(articlesHtml) + delim
