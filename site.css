@@ -62,7 +62,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 .edition .publicationDate {
   text-align: left;
   font-weight: bold;
-  margin: 12px 0 0 0;
+  margin: 9px 0 0 0;
   color: #333355;
 }
 
@@ -98,6 +98,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 .header h1 {
   color: #333366;
   font-size: 18px;
+}
+
+.header a {
+  text-decoration: none;
 }
 
 .info .header h2 {
