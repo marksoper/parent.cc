@@ -12,11 +12,7 @@ body {
   padding-bottom: 80px;
 }
 
-a {
-  font-weight: bold;
-  font-size: 110%;
-  text-decoration: none;
-}
+
 
 div {
   text-align: center;
@@ -54,6 +50,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 
 }
 
+.edition h2 {
+  font-size: 28px;
+}
+
+.edition {
+  text-align: left;
+  margin:15px 0 30px 0;
+}
+
+.edition .publicationDate {
+  text-align: left;
+  font-weight: bold;
+  margin: 12px 0 0 0;
+  color: #333355;
+}
+
 .content {
   overflow: auto;
   padding: 30px;
@@ -65,12 +77,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
   text-align:left;
 }
 
-.content h2 {
+.contentBody {
+  text-align: left;
+}
+
+.contentBody h2 {
   font-size: 18px;
   margin: 40px 0 20px 0;
 }
 
-.content p {
+.contentBody p {
   margin: 10px 0;
 }
 
