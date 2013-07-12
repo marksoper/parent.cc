@@ -39,8 +39,8 @@ for article in articles:
     htmlStyled = addStyling(html)
     articlesHtml.append(htmlStyled)
 
-delim = "\n\n\n"
-html = delim + delim.join(articlesHtml) + delim
+delim = "\n\n\n<br>\n\n\n"
+html = delim.join(articlesHtml)
 
 #htmlFile = open(dirname + "/" + dirname + ".html", "w")
 
