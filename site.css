@@ -92,6 +92,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 
 #logo {
   margin-top: 40px;
+  height: 40px;
 }
 
 .header h1 {
