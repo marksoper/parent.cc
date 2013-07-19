@@ -31,7 +31,7 @@ def addStyling(html):
 articlesHtml = []
 for article in articles:
     #mdfile = open(dirname + "/" + article, "r")
-    mdfile = codecs.open(dirname + "/" + article, mode="r", encoding="utf-8")
+    mdfile = codecs.open(dirname + "/" + article.rstrip(".md") + ".md", mode="r", encoding="utf-8")
     #md = unicode(mdfile.read(), errors="replace")
     md = mdfile.read()
     mdfile.close()
